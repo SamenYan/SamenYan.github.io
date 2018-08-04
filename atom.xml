@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-08-04T08:59:19.393Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/08/04/hello-world/"/>
+    <id>http://yoursite.com/2018/08/04/hello-world/</id>
+    <published>2018-08-04T08:59:19.393Z</published>
+    <updated>2018-08-04T08:59:19.393Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>css用clearfix:after清除浮动</title>
+    <link href="http://yoursite.com/2016/08/10/helloworld/"/>
+    <id>http://yoursite.com/2016/08/10/helloworld/</id>
+    <published>2016-08-09T16:00:00.000Z</published>
+    <updated>2018-08-04T09:20:03.884Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>为啥要整理clearfix情妇呢！尼玛，打个清浮出来个情妇。之前在某程时情妇css在官网拿过来直接用，也没考虑里面的每条代码是什么实现原理！结果，出来混总是要还的！去某评面试时被问到clearfix里面的具体css代码时有点小小的懵逼，虽然能答出来几个，但是不确定的感觉很不爽。明明感觉会的知识点还掌握不了多尴尬。所以这件事教会我，学习要注重细节，眼高手低迟早会暴露。所以C君们，做个心细的Coder吧！</p></blockquote><h4 id="1-为什么要清除浮动？"><a href="#1-为什么要清除浮动？" class="headerlink" title="1.为什么要清除浮动？"></a>1.为什么要清除浮动？</h4><blockquote><p>被浮动元素会脱离文档流，造成父元素高度为0的诡异现象；由以下demo可见：</p></blockquote><p><em>未清除浮动:</em><br><img src="../images/no_clearfix.png" alt="&quot;未清除浮动样例图片&quot;"></p><p><em>已清除浮动:</em><br><img src="../images/has_clearfix.png" alt="&quot;已清除浮动样例图片&quot;"></p><h4 id="2-推荐使用伪类清浮：不会改变html结构，用法简单，只需要在被浮动元素的父元素加上clearfix类即可。如下代码所示："><a href="#2-推荐使用伪类清浮：不会改变html结构，用法简单，只需要在被浮动元素的父元素加上clearfix类即可。如下代码所示：" class="headerlink" title="2.推荐使用伪类清浮：不会改变html结构，用法简单，只需要在被浮动元素的父元素加上clearfix类即可。如下代码所示："></a>2.推荐使用伪类清浮：不会改变html结构，用法简单，只需要在被浮动元素的父元素加上clearfix类即可。如下代码所示：</h4><p>html:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=<span class="string">"parent clearfix"</span>&gt;</span><br><span class="line">    &lt;div class=<span class="string">"floated"</span>&gt;&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p><p>css:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.clearfix:after &#123;</span><br><span class="line">    content: <span class="string">'.'</span>; //内容为“.”就是一个英文的句号而已。也可以不写。</span><br><span class="line">    display: block; //转化为块级元素</span><br><span class="line">    clear: both; //清除左右两边浮动</span><br><span class="line">    line-height: 0;</span><br><span class="line">    height: 0;</span><br><span class="line">    visibility: hidden; //可见度设为隐藏</span><br><span class="line">&#125;</span><br><span class="line">.clearfix&#123;</span><br><span class="line">    zoom:1;//兼容IE6、IE7，因为它俩不支持:after伪类,还好IE8以上是支持的</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;为啥要整理clearfix情妇呢！尼玛，打个清浮出来个情妇。之前在某程时情妇css在官网拿过来直接用，也没考虑里面的每条代码是什么实现原理！结果，出来混总是要还的！去某评面试时被问到clearfix里面的具体css代码时有点小小的懵逼，虽然能答出来
+      
+    
+    </summary>
+    
+    
+      <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+  </entry>
+  
+</feed>

@@ -6070,8 +6070,9 @@ code {
 pre {
   margin-bottom: 1.3em;
   padding: 1em 2.5%;
-  background: #f2f8ff;
-  border: 1px solid #edf6fd;
+  color: #ddd;
+  background: #282c34;
+  border: 1px solid #ccc;
   border-radius: 3px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   font-size: 0.9em;

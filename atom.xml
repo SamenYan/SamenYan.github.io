@@ -59,9 +59,9 @@
     </summary>
     
     
-      <category term="html" scheme="http://yoursite.com/tags/html/"/>
-    
       <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="html" scheme="http://yoursite.com/tags/html/"/>
     
   </entry>
   
@@ -156,9 +156,9 @@
     </summary>
     
     
-      <category term="html" scheme="http://yoursite.com/tags/html/"/>
-    
       <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="html" scheme="http://yoursite.com/tags/html/"/>
     
       <category term="ie" scheme="http://yoursite.com/tags/ie/"/>
     
@@ -183,9 +183,9 @@
     </summary>
     
     
-      <category term="html" scheme="http://yoursite.com/tags/html/"/>
-    
       <category term="css" scheme="http://yoursite.com/tags/css/"/>
+    
+      <category term="html" scheme="http://yoursite.com/tags/html/"/>
     
   </entry>
   
